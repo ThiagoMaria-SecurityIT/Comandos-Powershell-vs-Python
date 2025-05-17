@@ -12,10 +12,10 @@ Era para ser um cheat sheet rápido com os comandos mais usados no **PowerShell 
 
 <table>
   <tr>
-    <td><img src="imagens/aba1.png" alt="Aba 1" width="400"></td>
-    <td><img src="imagens/aba2.png" alt="Aba 2" width="400"></td>
-    <td><img src="imagens/aba3.jpg" alt="Aba 3" width="400"></td>
-    <td><img src="imagens/aba4.jpg" alt="Aba 4" width="400"></td>
+    <td><img src="Imagens/Aba1.png" alt="Aba 1" width="400"></td>
+    <td><img src="Imagens/Aba2.png" alt="Aba 2" width="400"></td>
+    <td><img src="Imagens/Aba3.jpg" alt="Aba 3" width="400"></td>
+    <td><img src="Imagens/Aba4.jpg" alt="Aba 4" width="400"></td>
   </tr>
   <tr>
     <td style="text-align: center;"> Aba 1</td>
