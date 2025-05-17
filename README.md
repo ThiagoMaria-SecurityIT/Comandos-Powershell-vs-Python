@@ -32,7 +32,7 @@ Tem uma aba com os **alias do PowerShell** e outra pra ajudar com **ambientes vi
 </table> 
 
 #### É tudo feito em Python com `tkinter` e estilizado com `ttkbootstrap`. A interface não é bonita, mas funciona. 
-#### Igual aquele TCC que vc faz em 2 horas e entrega só pra passar mesmo (brincadeira, jamais entreguem um TCC assim 😅). 
+#### Igual aquele TCC que você faz em 2 horas e entrega só para passar mesmo (brincadeira, jamais entreguem um TCC assim 😅). 
 ---
 
 ## 🧩 Abas do Programa
