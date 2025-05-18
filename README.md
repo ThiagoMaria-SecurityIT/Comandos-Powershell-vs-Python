@@ -1,20 +1,3 @@
-# 📚 Guia de Comandos - Windows & Linux
-
-> Uma ferramenta gráfica simples (e feia, mas prática) para quem vive no terminal.
-
----
-
-## O que esse programa faz?
-
-Copia os comandos para a área de transferência para não ter que ficar digitando toda hora ⌨️.  
-Era para ser um "cheat sheet" rápido com os comandos mais usados no **PowerShell (Windows)** e no **Terminal (Linux/WSL)** mas acabei me empolgando e ficou um pouco a mais hahahaha. 
-
-Tem uma aba com os **alias do PowerShell** e outra pra ajudar com **ambientes virtuais do Python** (muito útil para quem cria vários ambientes virtuais ✋🏾 me)
-
-## 💡 Observação importante
-
- * Tem alguns comandos Linux que funcionam no PowerShell?  
-   Sim 👍🏾, porque alguns terminais já vêm com alias padrão - mas como eu utilizo algumas versões portáteis do terminial, nem sempre vem com o alias, por isso "automatizei" para gerar o alias (eu só clico e importo 🏖️) para outro terminal. Se você rodar `ls` no PowerShell e funcionar... não é magia, é só o alias te salvando, capisci?
 
 <table>
   <tr>
@@ -31,54 +14,114 @@ Tem uma aba com os **alias do PowerShell** e outra pra ajudar com **ambientes vi
   </tr>
 </table> 
 
-#### É tudo feito em Python com `tkinter` e estilizado com `ttkbootstrap`. A interface não é bonita, mas funciona. 
-#### Igual aquele TCC que você faz em 2 horas e entrega só para passar mesmo (brincadeira, jamais entreguem um TCC assim 😅). 
----
+## 📄 README.md 
 
-## 🧩 Abas do Programa
 
-### 1. **Comandos Windows (PS)**  
-Lista comandos básicos do PowerShell como `dir`, `ipconfig`, `cd`, `mkdir`, etc. Cada um tem um botão pra copiar pro clipboard.
+# Guia de Comandos - Windows & Linux (PowerShell / WSL)
 
-### 2. **Comandos Linux / WSL**  
-Mesma coisa, mas pra quem usa Linux ou WSL. Tem `ls`, `clear`, `python3`, `apt update`, entre outros clássicos.
-
-### 3. **Alias do PowerShell**  
-Mostra uma tabela com os alias mais comuns do PowerShell (por exemplo `ls` pra `Get-ChildItem`) e permite exportar um script `.ps1` pra criar todos eles.
-
-### 4. **Python - Ambientes Virtuais**  
-Dá dicas de como criar, ativar e usar ambientes virtuais. Você pode digitar o nome do ambiente ou do script e ele atualiza os comandos automaticamente.
+Um aplicativo simples e útil para facilitar a cópia e uso de comandos frequentes no PowerShell (Windows), terminal Linux/WSL e ambientes virtuais do Python.
 
 ---
 
-## ⚙️ Como rodar?
+## 🖼️ Visão Geral
 
-Instale as dependências:
+Este projeto foi desenvolvido em Python com Tkinter, usando `ttkbootstrap` para tema escuro moderno. Ele permite que usuários copiem rapidamente comandos úteis para otimizar a produtividade!
+
+---
+
+## 🔧 Funcionalidades
+
+- **Comandos Windows (PS)**: Lista de comandos do PowerShell com botões para copiar.
+- **Comandos Linux / WSL**: Lista de comandos do terminal Linux/WSL.
+- **Alias do PowerShell**: Tabela completa de alias + exportação como script `.ps1`.
+- **Ambientes Virtuais do Python**: Dicas rápidas sobre comandos do `venv`.
+
+---
+
+## 🚀 Como Usar
+
+1. Abra o app
+2. Navegue entre as abas:
+   - Clique nos botões para **copiar os comandos**
+   - Na aba "Alias", use os botões para **exportar ou copiar o script PS1**
+
+> 💡 **Dica:** Útil para devs que querem agilizar comandos no dia a dia no terminal.
+
+---
+
+## 🧰 Requisitos
+
+- Python 3.8+
+- Pacotes necessários:
+  - `ttkbootstrap`
+  - `pyperclip`
+  - `tkinter (já vem com o Python)`
+Instale as dependências com:
 
 ```bash
-pip install pyperclip ttkbootstrap
-```
-
-No Linux ou WSL, instale isso também:
-
-```bash
-sudo apt install xclip
-```
-
-Depois é só rodar:
-
-```bash
-python main.py
+pip install ttkbootstrap pyperclip
 ```
 
 ---
 
-## 🖥️ Interface?
+## 🧪 Executar como Script
 
-É feia, sim. Mas é funcional. Se quiser deixar mais bonita depois, dá pra trocar o tema do `ttkbootstrap`.
+```bash
+main.py
+```
 
 ---
 
-## 📄 Licença
+## 📦 Compilar como `.exe` (opcional)
 
-MIT. Use, modifique, compartilhe e me avise se te ajudou.
+Se quiser gerar um executável:
+
+```bash
+pip install pyinstaller
+pyinstaller --onefile --windowed main.py
+```
+
+O executável será gerado na pasta `dist/`.
+
+---
+
+## 📁 Estrutura do Projeto
+
+```
+.
+├── main.py                       # Código principal
+├── README.md                     # Este arquivo
+├── requirements.txt              # Lista de dependências
+└── Images/                       # Images é imagens em inglês da interface
+```
+
+---
+
+## 🤝 Contribuição
+
+Contribuições são sempre bem-vindas! Se quiser adicionar mais comandos, melhorar a interface ou integrar novas funcionalidades, fique à vontade.
+
+---
+
+## 📝 Licença
+
+MIT License – veja [`LICENSE`](LICENSE) para mais detalhes.
+
+---
+
+## ❤️ Créditos
+
+Desenvolvido com ❤️ por **Qwen3-235B-A22B** e Thiago Maria 🙋🏽! 
+
+---
+
+> **Ferramenta criada para facilitar a vida de quem vive no PowerShell e terminal.**
+
+---
+
+## ✅ Conteúdo do `requirements.txt`:
+
+```
+ttkbootstrap==1.13.7
+pyperclip==1.9.0
+```
