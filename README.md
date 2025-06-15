@@ -1,21 +1,46 @@
-Command Reference Tool v.0
+**Command Reference Tool v2.1**
 ============================
 
-Interface Screenshots
+*A PowerShell/Linux/Python utility for security professionals and sysadmins*  
+
+**Features:**  
+✔ **CyberSec Dashboard**: Real-time network monitoring, threat visualization, and quick security checks.  
+✔ **Windows PowerShell**: Organized commands (File/Network/System) with one-click copy.  
+⚠ **Lab Use Only**: Lacks production-grade logging/auth—ideal for training/labs.  
+
+🚧 Coming in Q4 2025:  
+▸ Python virtual env quick-commands  
+▸ Linux/WSL terminal integration  
+▸ PowerShell aliases reference  
+
+⚠ Lab/Training Use Only
+→ No authentication or logging → Not for production   
+
+---
+
+1. Interface Screenshots [main.py](https://github.com/ThiagoMaria-SecurityIT/Comandos-Powershell-vs-Python/blob/main/main.py)  
 <table>
   <tr>
     <td><img src="Images/Cybersectab1.png" alt="Aba 1" width="400"></td>
     <td><img src="Images/windowstab1.png" alt="Aba 2" width="400"></td>
-    <td><img src="Images/Aba3.png" alt="Aba 3" width="300"></td>
-    <td><img src="Images/Aba4.png" alt="Aba 4" width="400"></td>
   </tr>
   <tr>
-    <td style="text-align: center;"> Tab 1</td>
-    <td style="text-align: center;"> Tab 2</td>
-    <td style="text-align: center;"> Tab 3 NOT INCLUDED IN THIS NEW VERSION</td>
-    <td style="text-align: center;"> Tab 4 NOT INCLUDED IN THIS NEW VERSION</td>
+    <td style="text-align: center;"> Tab 1 Cybersec </td>
+    <td style="text-align: center;"> Tab 2 Windows </td>
   </tr>
-</table> 
+</table>  
+
+2. Old Interface Screenshots [oldmain.py](https://github.com/ThiagoMaria-SecurityIT/Comandos-Powershell-vs-Python/blob/main/oldmain.py)
+<table>
+  <tr>
+  <td><img src="Images/Aba3.png" alt="Aba 3" width="300"></td>
+  <td><img src="Images/Aba4.png" alt="Aba 4" width="400"></td>
+  </tr>
+  <tr>
+  <td style="text-align: center;"> Old interface</td>
+  <td style="text-align: center;"> Old Python Virtual Env interface</td>
+  </tr>
+ </table> 
 
 ▌ Features
 ----------
@@ -31,17 +56,17 @@ Interface Screenshots
   - One-click copy functionality
 
 ■ Linux/WSL:
-  > [Under Construction]
+  > 🚧 Under Construction
   > - Essential terminal commands
   > - WSL-specific helpers
 
 ■ PowerShell Aliases:
-  > [Under Construction]
+  > 🚧 Under Construction
   > - Full reference table
   > - .ps1 export capability
 
 ■ Python Virtual Envs: 
-  > [Under Construction]
+  >  🚧 Under Construction
   > - Quick venv commands
   > - Dependency management
 
