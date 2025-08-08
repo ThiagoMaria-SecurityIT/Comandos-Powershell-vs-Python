@@ -1,14 +1,12 @@
 **Command Reference Tool v2.1**
 ============================
 
-## Under Review 08/August/2025  
->[!Important]  
-> Hi, this repo is under review for ugrade features.  
->Please, wait until August 10, 2025 - 2-3 days to the finished version.  
-> You can download now but some features are not 100%.
+>[!Tip]
+> For a updated version with new features look the other repo:   
+> [New Version with new features - click here](https://github.com/ThiagoMaria-SecurityIT/unified-command-tool/tree/main)
 
 
-*A PowerShell/Linux/Python utility for security professionals and sysadmins*  
+## A PowerShell/Linux/Python utility for security professionals and sysadmins*  
 
 **Features:**  
 ✔ **CyberSec Dashboard**: Real-time network monitoring, threat visualization, and quick security checks.  
@@ -49,67 +47,53 @@
   </tr>
  </table> 
 
-▌ Features
+▌ Features  
 ----------
-■ CyberSec Dashboard:
-  - Visual threat indicator
-  - Security quick checks (Ports/Processes/Firewall)
-  - Real-time network monitoring (Get-NetTCPConnection)
+■ CyberSec Dashboard:  
+  - Visual threat indicator  
+  - Security quick checks (Ports/Processes/Firewall)  
+  - Real-time network monitoring (Get-NetTCPConnection)  
+    
 > [!WARNING]    
->  NOT for production monitoring (missing critical features like logging/auth)
+>  NOT for production monitoring (missing critical features like logging/auth)  
 
-■ Windows PowerShell:
-  - Organized commands (File/Network/System)
-  - One-click copy functionality
+■ Windows PowerShell:  
+  - Organized commands (File/Network/System)  
+  - One-click copy functionality  
 
 ■ Linux/WSL:
-  > 🚧 Under Construction
-  > - Essential terminal commands
-  > - WSL-specific helpers
+  > 🚧 Under Construction  
+  > - Essential terminal commands  
+  > - WSL-specific helpers  
 
-■ PowerShell Aliases:
-  > 🚧 Under Construction
-  > - Full reference table
-  > - .ps1 export capability
+■ PowerShell Aliases:  
+  > 🚧 Under Construction  
+  > - Full reference table  
+  > - .ps1 export capability  
 
 ■ Python Virtual Envs: 
-  >  🚧 Under Construction
-  > - Quick venv commands
-  > - Dependency management
+  >  🚧 Under Construction  
+  > - Quick venv commands  
+  > - Dependency management  
 
-▌ Installation
+▌ Installation  
 --------------
-1. Install requirements:
-   pip install ttkbootstrap pyperclip
+1. Install requirements:  
+   pip install ttkbootstrap pyperclip  
 
 2. Run:
-   python main.py
+   python main.py  
 
-▌ Security Notes
+▌ Security Notes  
 ---------------
-✔ Safe for personal/lab use:
-  - Prevents command typos
-  - Documents legitimate commands
-  - Visualizes network activity
+✔ Safe for personal/lab use:  
+  - Prevents command typos  
+  - Documents legitimate commands  
+  - Visualizes network activity  
 
-> [!IMPORTANT]   
-> ⚠ Enterprise considerations:
- > - No built-in authentication
- > - Limited logging
- > - May trigger SIEM alerts
- > - Recommended for training use only
- > - Security awareness training 
-
-▌ Build Executable
+▌ Build Executable  
 -----------------
-pyinstaller --onefile --windowed main.py
-
-▌ Project Structure
-------------------
-main.py            # Main application
-requirements.txt   # Dependencies
-Images/            # Screenshots
-README.txt         # This file
+pyinstaller --onefile --windowed main.py  
 
 ▌ License
 ---------
