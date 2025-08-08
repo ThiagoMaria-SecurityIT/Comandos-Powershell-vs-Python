@@ -1,6 +1,13 @@
 **Command Reference Tool v2.1**
 ============================
 
+## Under Review 08/August/2025  
+>[!Important]  
+> Hi, this repo is under review for ugrade features.  
+>Please, wait until August 10, 2025 - 2-3 days to the finished version.  
+> You can download now but some features are not 100%.
+
+
 *A PowerShell/Linux/Python utility for security professionals and sysadmins*  
 
 **Features:**  
